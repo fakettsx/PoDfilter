@@ -297,6 +297,8 @@ ItemDisplay[tr2]: %NAME% //Scroll of Resistance
 
 
 
+ItemDisplay[NMAG SOCK>0]: %WHITE%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK>0]: %GRAY%%NAME% %YELLOW%[%SOCKETS%]
 
 
 
