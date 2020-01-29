@@ -56,6 +56,7 @@ ItemDisplay[tsc CLVL>10]:	//town scroll
 ItemDisplay[isc CLVL>10]:	//id scroll
 ItemDisplay[tbk]:			//town book
 ItemDisplay[ibk]:			//id book
+ItemDisplay[leg]: %NAME%	//wirt's leg
 //
 //╔═══════════════════════════════════════════════════════════════════╗
 //║		Gems & Runes               									  ║
@@ -199,7 +200,7 @@ ItemDisplay[ma2 ID]: %ORANGE%%NAME%%TAN% - Tier 4
 //─────────────────────────────────────────────────────────────────────
 //	PoD Items
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[cx5]: %ORANGE%OOC 	//Orb of Corruption
+ItemDisplay[cx5]: %ORANGE%OOC	//Orb of Corruption
 ItemDisplay[cx6]: ORANGE%NAME% 	//Diablo's Soulstone
 ItemDisplay[cx7]: ORANGE%NAME% 	//Key of Chaos
 //─────────────────────────────────────────────────────────────────────
@@ -259,7 +260,6 @@ ItemDisplay[tr2]: %NAME% //Scroll of Resistance
 
 
 
-ItemDisplay[]:
 
 
 
@@ -302,3 +302,5 @@ ItemDisplay[]:
 
 
 
+
+//ItemDisplay[]:
