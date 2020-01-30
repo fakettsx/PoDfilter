@@ -13,249 +13,316 @@
 
 
 //╔═══════════════════════════════════════════════════════════════════╗
-//║		Misc Items		           								      ║
+//║		Misc Items		           						                  		      ║
 //╚═══════════════════════════════════════════════════════════════════╝
-//
+
 //─────────────────────────────────────────────────────────────────────
 //	Gold
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[GOLD<5000]:
-ItemDisplay[GOLD>0 CHARSTAT15>2499999]:
+  ItemDisplay[GOLD<5000]:
+  ItemDisplay[GOLD>0 CHARSTAT15>2499999]:
 //─────────────────────────────────────────────────────────────────────
 //	Refill Potions
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[rvl]: %PURPLE%(%WHITE%Full%PURPLE%)
-ItemDisplay[rvs]: %PURPLE%(%WHITE%Rejuv%PURPLE%)
-ItemDisplay[hp1]: 
-ItemDisplay[hp2]: 
-ItemDisplay[hp3]: 
-ItemDisplay[hp4]: %RED%(%WHITE%Great%RED%)
-ItemDisplay[hp5]: %RED%(%WHITE%Super%RED%)
-ItemDisplay[mp1]: 
-ItemDisplay[mp2]: 
-ItemDisplay[mp3]: 
-ItemDisplay[mp4]: %BLUE%(%WHITE%Great%BLUE%)
-ItemDisplay[mp5]: %BLUE%(%WHITE%Super%BLUE%)
+  ItemDisplay[rvl]: %PURPLE%(%WHITE%Full%PURPLE%)
+  ItemDisplay[rvs]: %PURPLE%(%WHITE%Rejuv%PURPLE%)
+  ItemDisplay[hp1]: 
+  ItemDisplay[hp2]: 
+  ItemDisplay[hp3]: 
+  ItemDisplay[hp4]: %RED%(%WHITE%Great%RED%)
+  ItemDisplay[hp5]: %RED%(%WHITE%Super%RED%)
+  ItemDisplay[mp1]: 
+  ItemDisplay[mp2]: 
+  ItemDisplay[mp3]: 
+  ItemDisplay[mp4]: %BLUE%(%WHITE%Great%BLUE%)
+  ItemDisplay[mp5]: %BLUE%(%WHITE%Super%BLUE%)
 //─────────────────────────────────────────────────────────────────────
 //	Fight Potions
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[vps]:	//stamina
-ItemDisplay[yps]:	//antidote
-ItemDisplay[wms]:	//thawing
-ItemDisplay[opl]:	//fulminating
-ItemDisplay[gpl]:	//strangling gas
-ItemDisplay[opm]:	//exploding
-ItemDisplay[gpm]:	//choking gas
-ItemDisplay[ops]:	//oil
-ItemDisplay[gps]:	//rancid gas
+  ItemDisplay[vps]:	//stamina
+  ItemDisplay[yps]:	//antidote
+  ItemDisplay[wms]:	//thawing
+  ItemDisplay[opl]:	//fulminating
+  ItemDisplay[gpl]:	//strangling gas
+  ItemDisplay[opm]:	//exploding
+  ItemDisplay[gpm]:	//choking gas
+  ItemDisplay[ops]:	//oil
+  ItemDisplay[gps]:	//rancid gas
 //─────────────────────────────────────────────────────────────────────
 //	Others
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[key]:			//keys
-ItemDisplay[tsc CLVL>10]:	//town scroll
-ItemDisplay[isc CLVL>10]:	//id scroll
-ItemDisplay[tbk]:			//town book
-ItemDisplay[ibk]:			//id book
-ItemDisplay[leg]: %NAME%	//wirt's leg
-//
+  ItemDisplay[key]:			//keys
+  ItemDisplay[tsc CLVL>10]:	//town scroll
+  ItemDisplay[isc CLVL>10]:	//id scroll
+  ItemDisplay[tbk]:			//town book
+  ItemDisplay[ibk]:			//id book
+  ItemDisplay[leg]: %NAME%	//wirt's leg
+
 //╔═══════════════════════════════════════════════════════════════════╗
-//║		Gems & Runes               									  ║
+//║		Gems & Runes               					                  				  ║
 //╚═══════════════════════════════════════════════════════════════════╝
-//
+
 //─────────────────────────────────────────────────────────────────────
 //	Jewels
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[MAG !ID jew ILVL<66]:	//ignore unless ED +40%
-ItemDisplay[MAG !ID jew ILVL<58]: 	//ignore unless Max Damage +30
-ItemDisplay[MAG !ID jew ILVL<39]:	//ignore unless IAS +15%
-ItemDisplay[MAG !ID jew ILVL<35]:	//ignore unless all res +15%
+  ItemDisplay[MAG !ID jew ILVL<66]:	//ignore unless ED +40%
+  ItemDisplay[MAG !ID jew ILVL<58]: 	//ignore unless Max Damage +30
+  ItemDisplay[MAG !ID jew ILVL<39]:	//ignore unless IAS +15%
+  ItemDisplay[MAG !ID jew ILVL<35]:	//ignore unless all res +15%
 //─────────────────────────────────────────────────────────────────────
 //	Amethyst
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[gcv]: %PURPLE%[%WHITE%Chipped%PURPLE%]
-ItemDisplay[gfv]: %PURPLE%[%WHITE%Flawed%PURPLE%]
-ItemDisplay[gsv]: %PURPLE%[%WHITE%Amethyst%PURPLE%]
-ItemDisplay[gzv]: %PURPLE%[%WHITE%Flawless%PURPLE%]
-ItemDisplay[gpv]: %PURPLE%[%WHITE%Perfect%PURPLE%]
+  ItemDisplay[gcv]: %PURPLE%[%WHITE%Chipped%PURPLE%]
+  ItemDisplay[gfv]: %PURPLE%[%WHITE%Flawed%PURPLE%]
+  ItemDisplay[gsv]: %PURPLE%[%WHITE%Amethyst%PURPLE%]
+  ItemDisplay[gzv]: %PURPLE%[%WHITE%Flawless%PURPLE%]
+  ItemDisplay[gpv]: %PURPLE%[%WHITE%Perfect%PURPLE%]
 //─────────────────────────────────────────────────────────────────────
 //	Topaz
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[gcy]: %ORANGE%[%WHITE%Chipped%ORANGE%]
-ItemDisplay[gfy]: %ORANGE%[%WHITE%Flawed%ORANGE%]
-ItemDisplay[gsy]: %ORANGE%[%WHITE%Topaz%ORANGE%]
-ItemDisplay[gly]: %ORANGE%[%WHITE%Flawless%ORANGE%]
-ItemDisplay[gpy]: %ORANGE%[%WHITE%Perfect%ORANGE%]
+  ItemDisplay[gcy]: %ORANGE%[%WHITE%Chipped%ORANGE%]
+  ItemDisplay[gfy]: %ORANGE%[%WHITE%Flawed%ORANGE%]
+  ItemDisplay[gsy]: %ORANGE%[%WHITE%Topaz%ORANGE%]
+  ItemDisplay[gly]: %ORANGE%[%WHITE%Flawless%ORANGE%]
+  ItemDisplay[gpy]: %ORANGE%[%WHITE%Perfect%ORANGE%]
 //─────────────────────────────────────────────────────────────────────
 //	Saphire
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[gcb]: %BLUE%[%WHITE%Chipped%BLUE%]
-ItemDisplay[gfb]: %BLUE%[%WHITE%Flawed%BLUE%]
-ItemDisplay[gsb]: %BLUE%[%WHITE%Sapphire%BLUE%]
-ItemDisplay[glb]: %BLUE%[%WHITE%Flawless%BLUE%]
-ItemDisplay[gpb]: %BLUE%[%WHITE%Perfect%BLUE%]
+  ItemDisplay[gcb]: %BLUE%[%WHITE%Chipped%BLUE%]
+  ItemDisplay[gfb]: %BLUE%[%WHITE%Flawed%BLUE%]
+  ItemDisplay[gsb]: %BLUE%[%WHITE%Sapphire%BLUE%]
+  ItemDisplay[glb]: %BLUE%[%WHITE%Flawless%BLUE%]
+  ItemDisplay[gpb]: %BLUE%[%WHITE%Perfect%BLUE%]
 //─────────────────────────────────────────────────────────────────────
 //	Emerald
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[gcg]: %GREEN%[%WHITE%Chipped%GREEN%]
-ItemDisplay[gfg]: %GREEN%[%WHITE%Flawed%GREEN%]
-ItemDisplay[gsg]: %GREEN%[%WHITE%Emerald%GREEN%]
-ItemDisplay[glg]: %GREEN%[%WHITE%Flawless%GREEN%]
-ItemDisplay[gpg]: %GREEN%[%WHITE%Perfect%GREEN%]
+  ItemDisplay[gcg]: %GREEN%[%WHITE%Chipped%GREEN%]
+  ItemDisplay[gfg]: %GREEN%[%WHITE%Flawed%GREEN%]
+  ItemDisplay[gsg]: %GREEN%[%WHITE%Emerald%GREEN%]
+  ItemDisplay[glg]: %GREEN%[%WHITE%Flawless%GREEN%]
+  ItemDisplay[gpg]: %GREEN%[%WHITE%Perfect%GREEN%]
 //─────────────────────────────────────────────────────────────────────
 //	Ruby
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[gcr]: %RED%[%WHITE%Chipped%RED%]
-ItemDisplay[gfr]: %RED%[%WHITE%Flawed%RED%]
-ItemDisplay[gsr]: %RED%[%WHITE%Ruby%RED%]
-ItemDisplay[glr]: %RED%[%WHITE%Flawless%RED%]
-ItemDisplay[gpr]: %RED%[%WHITE%Perfect%RED%]
+  ItemDisplay[gcr]: %RED%[%WHITE%Chipped%RED%]
+  ItemDisplay[gfr]: %RED%[%WHITE%Flawed%RED%]
+  ItemDisplay[gsr]: %RED%[%WHITE%Ruby%RED%]
+  ItemDisplay[glr]: %RED%[%WHITE%Flawless%RED%]
+  ItemDisplay[gpr]: %RED%[%WHITE%Perfect%RED%]
 //─────────────────────────────────────────────────────────────────────
 //	Diamond
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[gcw]: %WHITE%[%WHITE%Chipped%WHITE%]
-ItemDisplay[gfw]: %WHITE%[%WHITE%Flawed%WHITE%]
-ItemDisplay[gsw]: %WHITE%[%WHITE%Diamond%WHITE%]
-ItemDisplay[glw]: %WHITE%[%WHITE%Flawless%WHITE%]
-ItemDisplay[gpw]: %WHITE%[%WHITE%Perfect%WHITE%]
+  ItemDisplay[gcw]: %WHITE%[%WHITE%Chipped%WHITE%]
+  ItemDisplay[gfw]: %WHITE%[%WHITE%Flawed%WHITE%]
+  ItemDisplay[gsw]: %WHITE%[%WHITE%Diamond%WHITE%]
+  ItemDisplay[glw]: %WHITE%[%WHITE%Flawless%WHITE%]
+  ItemDisplay[gpw]: %WHITE%[%WHITE%Perfect%WHITE%]
 //─────────────────────────────────────────────────────────────────────
 //	Skull
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[skc]: %TAN%[%WHITE%Chipped%TAN%]
-ItemDisplay[skf]: %TAN%[%WHITE%Flawed%TAN%]
-ItemDisplay[sku]: %TAN%[%WHITE%Skull%TAN%]
-ItemDisplay[skl]: %TAN%[%WHITE%%TAN%]
-ItemDisplay[skz]: %TAN%[%WHITE%Perfect%TAN%]
+  ItemDisplay[skc]: %TAN%[%WHITE%Chipped%TAN%]
+  ItemDisplay[skf]: %TAN%[%WHITE%Flawed%TAN%]
+  ItemDisplay[sku]: %TAN%[%WHITE%Skull%TAN%]
+  ItemDisplay[skl]: %TAN%[%WHITE%%TAN%]
+  ItemDisplay[skz]: %TAN%[%WHITE%Perfect%TAN%]
 //─────────────────────────────────────────────────────────────────────
 //	Runes
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[r01]: %ORANGE%%RUNENAME% %TAN%[1]
-ItemDisplay[r02]: %ORANGE%%RUNENAME% %TAN%[2]
-ItemDisplay[r03]: %ORANGE%%RUNENAME% %TAN%[3]
-ItemDisplay[r04]: %ORANGE%%RUNENAME% %TAN%[4]
-ItemDisplay[r05]: %ORANGE%%RUNENAME% %TAN%[5]
-ItemDisplay[r06]: %ORANGE%%RUNENAME% %TAN%[6]
-ItemDisplay[r07]: %ORANGE%%RUNENAME% %TAN%[7]
-ItemDisplay[r08]: %ORANGE%%RUNENAME% %TAN%[8]
-ItemDisplay[r09]: %ORANGE%%RUNENAME% %TAN%[9]
-ItemDisplay[r10]: %ORANGE%%RUNENAME% %TAN%[10]
-ItemDisplay[r11]: %ORANGE%%RUNENAME% %TAN%[11]
-ItemDisplay[r12]: %ORANGE%%RUNENAME% %TAN%[12]
-ItemDisplay[r13]: %ORANGE%%RUNENAME% %TAN%[13]
-ItemDisplay[r14]: %ORANGE%%RUNENAME% %TAN%[14]
-ItemDisplay[r15]: %ORANGE%%RUNENAME% %TAN%[15]
-ItemDisplay[r16]: %ORANGE%%RUNENAME% %TAN%[16]
-ItemDisplay[r17]: %ORANGE%%RUNENAME% %TAN%[17]
-ItemDisplay[r18]: %ORANGE%%RUNENAME% %TAN%[18]
-ItemDisplay[r19]: %ORANGE%%RUNENAME% %TAN%[19]
-ItemDisplay[r20]: %ORANGE%%RUNENAME% %TAN%[20]
-ItemDisplay[r21]: %ORANGE%%RUNENAME% %TAN%[21]
-ItemDisplay[r22]: %ORANGE%%RUNENAME% %TAN%[22]
-ItemDisplay[r23]: %ORANGE%%RUNENAME% %TAN%[23]
-ItemDisplay[r24]: %ORANGE%%RUNENAME% %TAN%[24]
-ItemDisplay[r25]: %ORANGE%%RUNENAME% %TAN%[25]
-ItemDisplay[r26]: %ORANGE%%RUNENAME% %TAN%[26]
-ItemDisplay[r27]: %ORANGE%%RUNENAME% %TAN%[27]
-ItemDisplay[r28]: %ORANGE%%RUNENAME% %TAN%[28]
-ItemDisplay[r29]: %ORANGE%%RUNENAME% %TAN%[29]
-ItemDisplay[r30]: %ORANGE%%RUNENAME% %TAN%[30]
-ItemDisplay[r31]: %ORANGE%%RUNENAME% %TAN%[31]
-ItemDisplay[r32]: %ORANGE%%RUNENAME% %TAN%[32]
-ItemDisplay[r33]: %ORANGE%%RUNENAME% %TAN%[33]
-//
+  ItemDisplay[r01]: %ORANGE%%RUNENAME% %TAN%[1]
+  ItemDisplay[r02]: %ORANGE%%RUNENAME% %TAN%[2]
+  ItemDisplay[r03]: %ORANGE%%RUNENAME% %TAN%[3]
+  ItemDisplay[r04]: %ORANGE%%RUNENAME% %TAN%[4]
+  ItemDisplay[r05]: %ORANGE%%RUNENAME% %TAN%[5]
+  ItemDisplay[r06]: %ORANGE%%RUNENAME% %TAN%[6]
+  ItemDisplay[r07]: %ORANGE%%RUNENAME% %TAN%[7]
+  ItemDisplay[r08]: %ORANGE%%RUNENAME% %TAN%[8]
+  ItemDisplay[r09]: %ORANGE%%RUNENAME% %TAN%[9]
+  ItemDisplay[r10]: %ORANGE%%RUNENAME% %TAN%[10]
+  ItemDisplay[r11]: %ORANGE%%RUNENAME% %TAN%[11]
+  ItemDisplay[r12]: %ORANGE%%RUNENAME% %TAN%[12]
+  ItemDisplay[r13]: %ORANGE%%RUNENAME% %TAN%[13]
+  ItemDisplay[r14]: %ORANGE%%RUNENAME% %TAN%[14]
+  ItemDisplay[r15]: %ORANGE%%RUNENAME% %TAN%[15]
+  ItemDisplay[r16]: %ORANGE%%RUNENAME% %TAN%[16]
+  ItemDisplay[r17]: %ORANGE%%RUNENAME% %TAN%[17]
+  ItemDisplay[r18]: %ORANGE%%RUNENAME% %TAN%[18]
+  ItemDisplay[r19]: %ORANGE%%RUNENAME% %TAN%[19]
+  ItemDisplay[r20]: %ORANGE%%RUNENAME% %TAN%[20]
+  ItemDisplay[r21]: %ORANGE%%RUNENAME% %TAN%[21]
+  ItemDisplay[r22]: %ORANGE%%RUNENAME% %TAN%[22]
+  ItemDisplay[r23]: %ORANGE%%RUNENAME% %TAN%[23]
+  ItemDisplay[r24]: %ORANGE%%RUNENAME% %TAN%[24]
+  ItemDisplay[r25]: %ORANGE%%RUNENAME% %TAN%[25]
+  ItemDisplay[r26]: %ORANGE%%RUNENAME% %TAN%[26]
+  ItemDisplay[r27]: %ORANGE%%RUNENAME% %TAN%[27]
+  ItemDisplay[r28]: %ORANGE%%RUNENAME% %TAN%[28]
+  ItemDisplay[r29]: %ORANGE%%RUNENAME% %TAN%[29]
+  ItemDisplay[r30]: %ORANGE%%RUNENAME% %TAN%[30]
+  ItemDisplay[r31]: %ORANGE%%RUNENAME% %TAN%[31]
+  ItemDisplay[r32]: %ORANGE%%RUNENAME% %TAN%[32]
+  ItemDisplay[r33]: %ORANGE%%RUNENAME% %TAN%[33]
+
 //╔═══════════════════════════════════════════════════════════════════╗
-//║		Special Items               							      ║
+//║		Special Items               						                	      ║
 //╚═══════════════════════════════════════════════════════════════════╝
-//
+
 //─────────────────────────────────────────────────────────────────────
 //	Pandemonium Keys
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[pk1]: %ORANGE%Terror %RED%[Countess]
-ItemDisplay[pk2]: %ORANGE%Hate %RED%[Summoner]
-ItemDisplay[pk3]: %ORANGE%Destruction %RED%[Nihlathak]
+  ItemDisplay[pk1]: %ORANGE%Terror %RED%[Countess]
+  ItemDisplay[pk2]: %ORANGE%Hate %RED%[Summoner]
+  ItemDisplay[pk3]: %ORANGE%Destruction %RED%[Nihlathak]
 //─────────────────────────────────────────────────────────────────────
 //	Essences
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[toa]: %ORANGE%Token
-ItemDisplay[tes]: %ORANGE%Suffering %RED%[Andy]
-ItemDisplay[ceh]: %ORANGE%Hatred %RED%[Meph]
-ItemDisplay[bet]: %ORANGE%Terror %RED%[Diablo]
-ItemDisplay[fed]: %ORANGE%Destruction %RED%[Baal]
+  ItemDisplay[toa]: %ORANGE%Token
+  ItemDisplay[tes]: %ORANGE%Suffering %RED%[Andy]
+  ItemDisplay[ceh]: %ORANGE%Hatred %RED%[Meph]
+  ItemDisplay[bet]: %ORANGE%Terror %RED%[Diablo]
+  ItemDisplay[fed]: %ORANGE%Destruction %RED%[Baal]
 //─────────────────────────────────────────────────────────────────────
 //	Organs
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[bey]: %ORANGE%Baal's Eye
-ItemDisplay[mbr]: %ORANGE%Mephisto's Brain
-ItemDisplay[dhn]: %ORANGE%Diablo's Horn
+  ItemDisplay[bey]: %ORANGE%Baal's Eye
+  ItemDisplay[mbr]: %ORANGE%Mephisto's Brain
+  ItemDisplay[dhn]: %ORANGE%Diablo's Horn
 //─────────────────────────────────────────────────────────────────────
 //	Relics
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[ma4 !ID]: %ORANGE%%NAME%
-ItemDisplay[ma4 ID]: %ORANGE%%NAME%%TAN% - Tier 1
-ItemDisplay[ma5 !ID]: %ORANGE%%NAME%
-ItemDisplay[ma5 ID]: %ORANGE%%NAME%%TAN% - Tier 2
-ItemDisplay[ma6 !ID]: %ORANGE%%NAME%
-ItemDisplay[ma6 ID]: %ORANGE%%NAME%%TAN% - Tier 3
-ItemDisplay[ma2 !ID]: %ORANGE%%NAME%
-ItemDisplay[ma2 ID]: %ORANGE%%NAME%%TAN% - Tier 4
+  ItemDisplay[ma4 !ID]: %ORANGE%%NAME%
+  ItemDisplay[ma4 ID]: %ORANGE%%NAME%%TAN% - Tier 1
+  ItemDisplay[ma5 !ID]: %ORANGE%%NAME%
+  ItemDisplay[ma5 ID]: %ORANGE%%NAME%%TAN% - Tier 2
+  ItemDisplay[ma6 !ID]: %ORANGE%%NAME%
+  ItemDisplay[ma6 ID]: %ORANGE%%NAME%%TAN% - Tier 3
+  ItemDisplay[ma2 !ID]: %ORANGE%%NAME%
+  ItemDisplay[ma2 ID]: %ORANGE%%NAME%%TAN% - Tier 4
 //─────────────────────────────────────────────────────────────────────
 //	PoD Items
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[cx5]: %ORANGE%OOC	//Orb of Corruption
-ItemDisplay[cx6]: ORANGE%NAME% 	//Diablo's Soulstone
-ItemDisplay[cx7]: ORANGE%NAME% 	//Key of Chaos
+  ItemDisplay[cx5]: %ORANGE%OOC	//Orb of Corruption
+  ItemDisplay[cx6]: ORANGE%NAME% 	//Diablo's Soulstone
+  ItemDisplay[cx7]: ORANGE%NAME% 	//Key of Chaos
 //─────────────────────────────────────────────────────────────────────
 //	Other
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[ear]: %NAME% //Player Ear
-ItemDisplay[std]: %NAME% //Standard of Heroes
-//
+  ItemDisplay[ear]: %NAME% //Player Ear
+  ItemDisplay[std]: %NAME% //Standard of Heroes
+
 //╔═══════════════════════════════════════════════════════════════════╗
-//║		Quest Items                      							  ║
+//║		Quest Items                      					                		  ║
 //╚═══════════════════════════════════════════════════════════════════╝
-//
+
 //─────────────────────────────────────────────────────────────────────
 //	Act I
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[bks]: %NAME% //Scroll of Inifuss
-ItemDisplay[bkd]: %NAME% //Key to the Cairn Stones
-ItemDisplay[hdm]: %NAME% //Horadric Malus
+  ItemDisplay[bks]: %NAME% //Scroll of Inifuss
+  ItemDisplay[bkd]: %NAME% //Key to the Cairn Stones
+  ItemDisplay[hdm]: %NAME% //Horadric Malus
 //─────────────────────────────────────────────────────────────────────
 //	Act II
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[ass]: %NAME% //Book of Skill
-ItemDisplay[tr1]: %NAME% //Horadric Scroll
-ItemDisplay[box]: %NAME% //Horadric Cube
-ItemDisplay[msf]: %NAME% //Staff of Kings
-ItemDisplay[vip]: %NAME% //Viper Amulet
-ItemDisplay[hst]: %NAME% //Horadric Staff
+  ItemDisplay[ass]: %NAME% //Book of Skill
+  ItemDisplay[tr1]: %NAME% //Horadric Scroll
+  ItemDisplay[box]: %NAME% //Horadric Cube
+  ItemDisplay[msf]: %NAME% //Staff of Kings
+  ItemDisplay[vip]: %NAME% //Viper Amulet
+  ItemDisplay[hst]: %NAME% //Horadric Staff
 //─────────────────────────────────────────────────────────────────────
 //	Act III
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[j34]: %NAME% //A Jade Figurine
-ItemDisplay[g34]: %NAME% //The Golden Bird
-ItemDisplay[xyz]: %NAME% //Potion of Life
-ItemDisplay[g33]: %NAME% //Gidbinn
-ItemDisplay[bbb]: %NAME% //Lam Esen's Tome
-ItemDisplay[qbr]: %NAME% //Khalim's Brain
-ItemDisplay[qey]: %NAME% //Khalim's Eye
-ItemDisplay[qhr]: %NAME% //Khalim's Heart
-ItemDisplay[qf1]: %NAME% //Khalim's Flail
-ItemDisplay[qf2]: %NAME% //Khalim's Will
-ItemDisplay[mss]: %NAME% //Mephisto's Soulstone
+  ItemDisplay[j34]: %NAME% //A Jade Figurine
+  ItemDisplay[g34]: %NAME% //The Golden Bird
+  ItemDisplay[xyz]: %NAME% //Potion of Life
+  ItemDisplay[g33]: %NAME% //Gidbinn
+  ItemDisplay[bbb]: %NAME% //Lam Esen's Tome
+  ItemDisplay[qbr]: %NAME% //Khalim's Brain
+  ItemDisplay[qey]: %NAME% //Khalim's Eye
+  ItemDisplay[qhr]: %NAME% //Khalim's Heart
+  ItemDisplay[qf1]: %NAME% //Khalim's Flail
+  ItemDisplay[qf2]: %NAME% //Khalim's Will
+  ItemDisplay[mss]: %NAME% //Mephisto's Soulstone
 //─────────────────────────────────────────────────────────────────────
 //	Act IV
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[hfh]: %NAME% //Hellforge Hammer
+ItemDisplay[hfh]  : %NAME% //Hellforge Hammer
 //─────────────────────────────────────────────────────────────────────
 //	Act V
 //─────────────────────────────────────────────────────────────────────
-ItemDisplay[ice]: %NAME% //Malah's Potion
-ItemDisplay[tr2]: %NAME% //Scroll of Resistance
-//
+    ItemDisplay[ice]: %NAME% //Malah's Potion
+    ItemDisplay[tr2]: %NAME% //Scroll of Resistance
+
 //╔═══════════════════════════════════════════════════════════════════╗
-//║		Items                       								  ║
+//║		Items                       								                    ║
 //╚═══════════════════════════════════════════════════════════════════╝
-//
+
+//─────────────────────────────────────────────────────────────────────
+//	Normal
+//─────────────────────────────────────────────────────────────────────
+  ItemDisplay[NORM CLVL>4  NMAG !RW INF]:
+  ItemDisplay[NORM CLVL>14 (NMAG OR MAG) !RW SOCK<2]:
+  ItemDisplay[NORM CLVL>34 NMAG !RW]:
+
+  ItemDisplay[NORM NMAG ETH !RW SOCK=0]: ETH %NAME%
+  ItemDisplay[NORM NMAG ETH !RW]: ETH %NAME% [%SOCKETS%]
+  ItemDisplay[NORM NMAG !RW SOCK>0]: %NAME% [%SOCKETS%]
+  ItemDisplay[NORM MAG ETH SOCK>1]: ETH %NAME% [%SOCKETS%]
+  ItemDisplay[NORM MAG SOCK>1]: %NAME% [%SOCKETS%]
+  ItemDisplay[NORM ETH RARE SOCK=0]: ETH %NAME%
+  ItemDisplay[NORM ETH RARE]: ETH %NAME% [%SOCKETS%]
+  ItemDisplay[NORM RARE SOCK=0]: %NAME%
+  ItemDisplay[NORM RARE]: %NAME% [%SOCKETS%]
+  ItemDisplay[NORM ETH UNI SOCK=0]: ETH %NAME% (uniq)
+  ItemDisplay[NORM ETH UNI]: ETH %NAME% [%SOCKETS%](uniq)
+  ItemDisplay[NORM UNI SOCK=0]: %NAME% (uniq)
+  ItemDisplay[NORM UNI]: %NAME% [%SOCKETS%](uniq)
+  ItemDisplay[NORM ETH RW]: ETH %NAME% (runeword)
+  ItemDisplay[NORM RW]:	%NAME% (runeword)
+  ItemDisplay[NORM SET SOCK=0]:	%NAME%
+  ItemDisplay[NORM SET]: %NAME% [%SOCKETS%]
+
+//─────────────────────────────────────────────────────────────────────
+//	Exceptional
+//─────────────────────────────────────────────────────────────────────\
+
+  ItemDisplay[EXC NMAG ETH !RW SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%*
+  ItemDisplay[EXC NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]%RED%*
+  ItemDisplay[EXC NMAG !RW]:
+  ItemDisplay[EXC MAG ETH SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%*
+  ItemDisplay[EXC MAG SOCK>1]: %NAME% [%SOCKETS%]%RED%*
+  ItemDisplay[EXC MAG]:
+  ItemDisplay[EXC	ETH RARE SOCK>0]: ETH %NAME% [%SOCKETS%]%RED%*
+  ItemDisplay[EXC	ETH RARE]: ETH %NAME%%RED%*
+  ItemDisplay[EXC RARE SOCK>0]: %NAME% [%SOCKETS%]%RED%*
+  ItemDisplay[EXC RARE]: %NAME%%RED%*
+  ItemDisplay[EXC ETH UNI SOCK>0]: ETH %NAME% [%SOCKETS%] (uniq)%RED%*
+  ItemDisplay[EXC ETH UNI]: ETH %NAME% (uniq)%RED%*
+  ItemDisplay[EXC UNI]:	%NAME% (uniq)%RED%*
+  ItemDisplay[EXC ETH RW]: ETH %NAME% (runeword)%RED%*
+  ItemDisplay[EXC RW]: %NAME% (runeword)%RED%*
+  ItemDisplay[EXC SET SOCK>0]: %NAME% [%SOCKETS%]%RED%*
+  ItemDisplay[EXC SET]: %NAME%%RED%*
+
+//─────────────────────────────────────────────────────────────────────
+//	Elite
+//─────────────────────────────────────────────────────────────────────
+  ItemDisplay[ELT NMAG ETH !RW SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%**
+  ItemDisplay[ELT NMAG !RW SOCK>1]: %NAME% [%SOCKETS%]%RED%**
+  ItemDisplay[ELT NMAG !RW]: %NAME%%RED%**
+  ItemDisplay[ELT MAG ETH SOCK>1]: ETH %NAME% [%SOCKETS%]%RED%**
+  ItemDisplay[ELT MAG SOCK>1]: %NAME% [%SOCKETS%]%RED%**
+  ItemDisplay[ELT MAG]: %NAME%%RED%**
+  ItemDisplay[ELT	ETH RARE SOCK>0]: ETH %NAME% [%SOCKETS%]%RED%**
+  ItemDisplay[ELT	ETH RARE]: ETH %NAME%%RED%**
+  ItemDisplay[ELT RARE SOCK>0]: %NAME% [%SOCKETS%]%RED%**
+  ItemDisplay[ELT RARE]: %NAME%%RED%**
+  ItemDisplay[ELT ETH UNI SOCK>0]: ETH %NAME% [%SOCKETS%] (uniq)%RED%**
+  ItemDisplay[ELT ETH UNI]: ETH %NAME% (uniq)%RED%**
+  ItemDisplay[ELT UNI]:	%NAME% (uniq)%RED%**
+  ItemDisplay[ELT ETH RW]: ETH %NAME% (runeword)%RED%**
+  ItemDisplay[ELT RW]: %NAME% (runeword)%RED%**
+  ItemDisplay[ELT SET SOCK>0]: %NAME% [%SOCKETS%]%RED%**
+  ItemDisplay[ELT SET]: %NAME%%RED%**
 
 
 
@@ -297,8 +364,11 @@ ItemDisplay[tr2]: %NAME% //Scroll of Resistance
 
 
 
-ItemDisplay[NMAG SOCK>0]: %WHITE%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[NMAG ETH SOCK>0]: %GRAY%%NAME% %YELLOW%[%SOCKETS%]
+
+
+
+//ItemDisplay[NMAG SOCK>0]: %WHITE%%NAME% %YELLOW%[%SOCKETS%]
+//ItemDisplay[NMAG ETH SOCK>0]: %GRAY%%NAME% %YELLOW%[%SOCKETS%]
 
 
 
