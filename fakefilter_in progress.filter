@@ -26,14 +26,14 @@
 //─────────────────────────────────────────────────────────────────────
   ItemDisplay[rvl]: %PURPLE%(%WHITE%Full%PURPLE%)
   ItemDisplay[rvs]: %PURPLE%(%WHITE%Rejuv%PURPLE%)
-  ItemDisplay[hp1]: 
-  ItemDisplay[hp2]: 
-  ItemDisplay[hp3]: 
+  ItemDisplay[hp1]: %RED%%NAME%
+  ItemDisplay[hp2]: %RED%%NAME%
+  ItemDisplay[hp3]: %RED%%NAME%
   ItemDisplay[hp4]: %RED%(%WHITE%Great%RED%)
   ItemDisplay[hp5]: %RED%(%WHITE%Super%RED%)
-  ItemDisplay[mp1]: 
-  ItemDisplay[mp2]: 
-  ItemDisplay[mp3]: 
+  ItemDisplay[mp1]: %BLUE%%NAME%
+  ItemDisplay[mp2]: %BLUE%%NAME%
+  ItemDisplay[mp3]: %BLUE%%NAME%
   ItemDisplay[mp4]: %BLUE%(%WHITE%Great%BLUE%)
   ItemDisplay[mp5]: %BLUE%(%WHITE%Super%BLUE%)
 //─────────────────────────────────────────────────────────────────────
